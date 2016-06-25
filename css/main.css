@@ -22,16 +22,14 @@ body {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
-#about,
-#work,
-#footer {
-    height: 600px;
-}
-
 .brand-color {
     color: #77a466;
     color: #66A65E;
     /* I chose this color using color picker tool on chrome. */
+}
+
+h3 {
+    text-transform: uppercase;
 }
 
 
@@ -49,7 +47,7 @@ body {
 }
 
 .third-width {
-    width: 400px;
+    width: 340px;
     float: left;
 }
 
@@ -96,10 +94,103 @@ header nav a {
 /* # ABOUT
 ---------------------------------------------------------------------------------------------------- */
 
+#about h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+#about p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
 
 /* # WORK
 ---------------------------------------------------------------------------------------------------- */
 
+#work .full-width {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #eee;
+}
+
+#work ul {
+    padding: 0;
+}
+
+#work ul li {
+    list-style: none;
+    color: #66A65E;
+    line-height: 2.0;
+    letter-spacing: 2px;
+}
+
+.first-column {
+    padding-right: 50px;
+}
+
+.centre-column {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding-left: 40px;
+    padding-right: 25px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.third-column {
+    padding-left: 40px;
+    line-height: 1.6;
+}
+
+.clear-float {
+    border-bottom: 1px solid #eee;
+    clear: both;
+}
+
 
 /* # FOOTER
 ---------------------------------------------------------------------------------------------------- */
+
+footer {
+    clear: both;
+}
+
+footer .full-width {
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer h4 span {
+    color: #66A65E;
+    text-transform: lowercase;
+    font-family: "Oleo Script";
+    font-size: 18px;
+}
+
+
+/* # FOR TESTING - it adds dotted borders around the divs to see alignment etc.,
+---------------------------------------------------------------------------------------------------- */
+
+
+/*   
+ 
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+*/
