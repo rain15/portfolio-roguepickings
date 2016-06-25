@@ -1,0 +1,105 @@
+/* # Table of Contents
+
+- BASE STYLES
+
+- GRID
+
+- HEADER
+
+- ABOUT
+
+- WORK
+
+- FOOTER
+	
+*/
+
+
+/* # BASE STYLES
+---------------------------------------------------------------------------------------------------- */
+
+body {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+#about,
+#work,
+#footer {
+    height: 600px;
+}
+
+.brand-color {
+    color: #77a466;
+    color: #66A65E;
+    /* I chose this color using color picker tool on chrome. */
+}
+
+
+/* # GRID
+---------------------------------------------------------------------------------------------------- */
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+/* # HEADER
+---------------------------------------------------------------------------------------------------- */
+
+header {
+    padding: 40px 0;
+}
+
+header span {
+    color: #77a466;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin-right: -22px;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-right: 25px;
+    color: #77a466;
+    font-size: 14px;
+    /* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 23px;
+    /* Approximation due to font substitution */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #66A65E;
+}
+
+.hero-img {
+    padding-left: 120px;
+}
+
+
+/* # ABOUT
+---------------------------------------------------------------------------------------------------- */
+
+
+/* # WORK
+---------------------------------------------------------------------------------------------------- */
+
+
+/* # FOOTER
+---------------------------------------------------------------------------------------------------- */
