@@ -87,7 +87,8 @@ header nav a {
 }
 
 .hero-img {
-    padding-left: 120px;
+    display: block;
+    margin: 0 auto;
 }
 
 
